@@ -3,7 +3,7 @@ name: garmin-sports-sync
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 1,12 * * * *'
+    - cron: '35 1,12 * * *'
 env:
   AESKEY: ${{ secrets.AESKEY }}
   SOURCE_GARMIN_AUTH_DOMAIN: ${{ secrets.SOURCE_GARMIN_AUTH_DOMAIN }}
